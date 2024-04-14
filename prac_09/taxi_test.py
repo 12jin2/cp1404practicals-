@@ -11,5 +11,3 @@ print("After driving 100km:")
 print(my_taxi)
 print(f"Current fare: ${my_taxi.get_fare():.2f}")
 
-
-

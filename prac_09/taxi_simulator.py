@@ -44,5 +44,4 @@ def main():
     for i, taxi in enumerate(taxis):
         print(f"{i} - {taxi}")
 
-
 main()

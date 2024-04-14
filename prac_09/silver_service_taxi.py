@@ -13,6 +13,7 @@ class SilverServiceTaxi(Taxi):
     def get_fare(self):
         """Calculate and return the price for the taxi trip, including the flagfall."""
         return super().get_fare() + self.flagfall
+
     def start_fare(self):
         """Begin a new fare."""
         super().start_fare()
