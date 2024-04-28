@@ -77,4 +77,3 @@ def format_as_sentence(phrase):
     if not sentence.endswith('.'):
         sentence += '.'
     return sentence
-
