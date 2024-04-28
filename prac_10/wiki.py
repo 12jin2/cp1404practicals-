@@ -20,7 +20,6 @@ def get_wikipedia_summary():
             print("Page not found. Please try a different search term.")
         except Exception as e:
             print("An error occurred: {}".format(e))
-
 # Run the script
 if __name__ == "__main__":
     get_wikipedia_summary()
